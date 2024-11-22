@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!-- label tag is used to make a relationship between the text box and name -->
+
+
+    <!-- <h1 style="text-align: center;">welcome to my portfolio website</h1> -->
+    <fieldset>
+
+        <form action="/server">
+            <legend>
+                <h4>Personal detail</h4>
+            </legend>
+
+            <label for="first">
+                <b>First name :: </b>
+            </label>
+            <input type="text" placeholder="Enter first name" id="first">
+
+            <br><br>
+
+            <label for="last">
+                <b>Last name ::</b>
+            </label>
+            <input type="text" placeholder="Enter Last name" id="last">
+
+            <br><br>
+
+            <label for="DOB">
+                <b>DOB :: </b>
+            </label>
+            <input type="date" placeholder="Enter age" size="10" id="DOB">
+
+            <br><br>
+
+            <label for="emai;"> <b>Email id :: </b>
+            </label>
+            <input type="email" placeholder="Enter email address" id="email">
+
+            <br><br>
+            <label for="gender"><b>Gender</b></label>
+
+            <input type="radio" id="male" name="gender">
+            <label for="gender">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="">Female</label>
+            <br><br>
+
+            
+            <label for="country"><b>Choose your country</b></label>
+            <select name="desh" id="country">
+
+                <option value="">USA</option>
+                <option value="">Canada</option>
+                <option value="">England</option>
+                <option value="">Dubai</option>
+            </select>
+            <br><br>
+
+            <label for="range"><b>Age :</b></label>
+            <input type="range" name="age" id="range" min="1" max="100">
+
+
+            <br><br>
+
+            <label for="address"><b>Address</b></label>
+            <textarea id="address" rows="6" cols="15" placeholder="Write your full address in details"></textarea>
+
+
+            <br><br>
+            <input type="checkbox" id="check" name="age">
+            <label for="check">Yes I am 18+</label>
+
+           <br><br>
+            <label for="sumbit" style="color: aqua;">
+            </label>
+            <input type="submit" name="sumbit" id="sumbit" style="color: rgb(175, 197, 86);">
+
+            <label for="reset" style="align-items: center;">
+            </label>
+            <input type="reset" name="reset" id="reset" style="color: rgb(148, 36, 101); align-items: end;">
+
+    </fieldset>
+
+    </form>
+
+</body>
+
+</html>
